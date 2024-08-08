@@ -1,0 +1,355 @@
+{
+    "posts": [
+      {
+        "postId": "1",
+        "uploader": {
+          "image": "uploader1.jpg",
+          "name": "Alice Johnson",
+          "studentId": "S1001",
+          "section": "A"
+        },
+        "title": "Introduction to AI",
+        "description": "Sharing some insights about the basics of AI.",
+        "images": ["ai_intro.jpg"],
+        "uploadTime": "2024-08-01T09:00:00Z",
+        "reactions": {
+          "total": 15,
+          "users": [
+            { "name": "John Doe", "studentId": "S1002" },
+            { "name": "Jane Smith", "studentId": "S1003" }
+          ]
+        },
+        "comments": {
+          "total": 3,
+          "list": [
+            {
+              "commenter": { "name": "John Doe", "studentId": "S1002" },
+              "comment": "Great post, Alice!",
+              "time": "2024-08-01T10:00:00Z"
+            },
+            {
+              "commenter": { "name": "Jane Smith", "studentId": "S1003" },
+              "comment": "Thanks for sharing!",
+              "time": "2024-08-01T11:00:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "2",
+        "uploader": {
+          "image": "uploader2.jpg",
+          "name": "Bob Carter",
+          "studentId": "S1004",
+          "section": "B"
+        },
+        "title": "JavaScript Tips and Tricks",
+        "description": "Some useful tips for JavaScript developers.",
+        "images": ["js_tips.jpg"],
+        "uploadTime": "2024-08-02T08:30:00Z",
+        "reactions": {
+          "total": 20,
+          "users": [
+            { "name": "Alice Johnson", "studentId": "S1001" },
+            { "name": "Emily Davis", "studentId": "S1005" }
+          ]
+        },
+        "comments": {
+          "total": 4,
+          "list": [
+            {
+              "commenter": { "name": "Alice Johnson", "studentId": "S1001" },
+              "comment": "Very helpful, Bob!",
+              "time": "2024-08-02T09:00:00Z"
+            },
+            {
+              "commenter": { "name": "Emily Davis", "studentId": "S1005" },
+              "comment": "I learned a lot from this.",
+              "time": "2024-08-02T09:30:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "3",
+        "uploader": {
+          "image": "uploader3.jpg",
+          "name": "Charlie Brown",
+          "studentId": "S1006",
+          "section": "C"
+        },
+        "title": "Understanding Data Structures",
+        "description": "An overview of various data structures in computer science.",
+        "images": ["data_structures.jpg"],
+        "uploadTime": "2024-08-03T07:45:00Z",
+        "reactions": {
+          "total": 10,
+          "users": [
+            { "name": "Alice Johnson", "studentId": "S1001" },
+            { "name": "John Doe", "studentId": "S1002" }
+          ]
+        },
+        "comments": {
+          "total": 2,
+          "list": [
+            {
+              "commenter": { "name": "Alice Johnson", "studentId": "S1001" },
+              "comment": "Thanks for the insights!",
+              "time": "2024-08-03T08:00:00Z"
+            },
+            {
+              "commenter": { "name": "John Doe", "studentId": "S1002" },
+              "comment": "Great summary!",
+              "time": "2024-08-03T08:15:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "4",
+        "uploader": {
+          "image": "uploader4.jpg",
+          "name": "Diana Prince",
+          "studentId": "S1007",
+          "section": "D"
+        },
+        "title": "Learning Python",
+        "description": "Python programming tips for beginners.",
+        "images": ["python_tips.jpg"],
+        "uploadTime": "2024-08-04T12:00:00Z",
+        "reactions": {
+          "total": 25,
+          "users": [
+            { "name": "Charlie Brown", "studentId": "S1006" },
+            { "name": "Emily Davis", "studentId": "S1005" }
+          ]
+        },
+        "comments": {
+          "total": 5,
+          "list": [
+            {
+              "commenter": { "name": "Charlie Brown", "studentId": "S1006" },
+              "comment": "Python is awesome!",
+              "time": "2024-08-04T12:30:00Z"
+            },
+            {
+              "commenter": { "name": "Emily Davis", "studentId": "S1005" },
+              "comment": "Thanks for sharing these tips.",
+              "time": "2024-08-04T12:45:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "5",
+        "uploader": {
+          "image": "uploader5.jpg",
+          "name": "Eve Adams",
+          "studentId": "S1008",
+          "section": "E"
+        },
+        "title": "Exploring Machine Learning",
+        "description": "A beginner's guide to machine learning.",
+        "images": ["ml_guide.jpg"],
+        "uploadTime": "2024-08-05T11:00:00Z",
+        "reactions": {
+          "total": 18,
+          "users": [
+            { "name": "Bob Carter", "studentId": "S1004" },
+            { "name": "Diana Prince", "studentId": "S1007" }
+          ]
+        },
+        "comments": {
+          "total": 4,
+          "list": [
+            {
+              "commenter": { "name": "Bob Carter", "studentId": "S1004" },
+              "comment": "Very informative!",
+              "time": "2024-08-05T11:30:00Z"
+            },
+            {
+              "commenter": { "name": "Diana Prince", "studentId": "S1007" },
+              "comment": "Great starting point for ML.",
+              "time": "2024-08-05T11:45:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "6",
+        "uploader": {
+          "image": "uploader6.jpg",
+          "name": "Franklin Richards",
+          "studentId": "S1009",
+          "section": "F"
+        },
+        "title": "Networking Basics",
+        "description": "Understanding the basics of computer networking.",
+        "images": ["networking_basics.jpg"],
+        "uploadTime": "2024-08-06T14:00:00Z",
+        "reactions": {
+          "total": 22,
+          "users": [
+            { "name": "Alice Johnson", "studentId": "S1001" },
+            { "name": "Bob Carter", "studentId": "S1004" }
+          ]
+        },
+        "comments": {
+          "total": 3,
+          "list": [
+            {
+              "commenter": { "name": "Alice Johnson", "studentId": "S1001" },
+              "comment": "Networking is crucial!",
+              "time": "2024-08-06T14:30:00Z"
+            },
+            {
+              "commenter": { "name": "Bob Carter", "studentId": "S1004" },
+              "comment": "Thanks for the overview.",
+              "time": "2024-08-06T14:45:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "7",
+        "uploader": {
+          "image": "uploader7.jpg",
+          "name": "Grace Hopper",
+          "studentId": "S1010",
+          "section": "G"
+        },
+        "title": "Understanding Algorithms",
+        "description": "An introduction to algorithms and their importance.",
+        "images": ["algorithms_intro.jpg"],
+        "uploadTime": "2024-08-07T09:15:00Z",
+        "reactions": {
+          "total": 30,
+          "users": [
+            { "name": "Charlie Brown", "studentId": "S1006" },
+            { "name": "Eve Adams", "studentId": "S1008" }
+          ]
+        },
+        "comments": {
+          "total": 6,
+          "list": [
+            {
+              "commenter": { "name": "Charlie Brown", "studentId": "S1006" },
+              "comment": "Very well explained!",
+              "time": "2024-08-07T09:45:00Z"
+            },
+            {
+              "commenter": { "name": "Eve Adams", "studentId": "S1008" },
+              "comment": "Thanks, Grace!",
+              "time": "2024-08-07T10:00:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "8",
+        "uploader": {
+          "image": "uploader8.jpg",
+          "name": "Henry Ford",
+          "studentId": "S1011",
+          "section": "H"
+        },
+        "title": "Object-Oriented Programming",
+        "description": "A deep dive into OOP principles.",
+        "images": ["oop_principles.jpg"],
+        "uploadTime": "2024-08-08T10:00:00Z",
+        "reactions": {
+          "total": 12,
+          "users": [
+            { "name": "Grace Hopper", "studentId": "S1010" },
+            { "name": "Diana Prince", "studentId": "S1007" }
+          ]
+        },
+        "comments": {
+          "total": 4,
+          "list": [
+            {
+              "commenter": { "name": "Grace Hopper", "studentId": "S1010" },
+              "comment": "OOP is essential in software development!",
+              "time": "2024-08-08T10:30:00Z"
+            },
+            {
+              "commenter": { "name": "Diana Prince", "studentId": "S1007" },
+              "comment": "Thanks for breaking it down.",
+              "time": "2024-08-08T10:45:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "9",
+        "uploader": {
+          "image": "uploader9.jpg",
+          "name": "Ivy Lee",
+          "studentId": "S1012",
+          "section": "I"
+        },
+        "title": "Cloud Computing",
+        "description": "A guide to understanding cloud services.",
+        "images": ["cloud_computing.jpg"],
+        "uploadTime": "2024-08-09T13:00:00Z",
+        "reactions": {
+          "total": 17,
+          "users": [
+            { "name": "Henry Ford", "studentId": "S1011" },
+            { "name": "Franklin Richards", "studentId": "S1009" }
+          ]
+        },
+        "comments": {
+          "total": 3,
+          "list": [
+            {
+              "commenter": { "name": "Henry Ford", "studentId": "S1011" },
+              "comment": "Cloud is the future!",
+              "time": "2024-08-09T13:30:00Z"
+            },
+            {
+              "commenter": { "name": "Franklin Richards", "studentId": "S1009" },
+              "comment": "Very well explained.",
+              "time": "2024-08-09T13:45:00Z"
+            }
+          ]
+        }
+      },
+      {
+        "postId": "10",
+        "uploader": {
+          "image": "uploader10.jpg",
+          "name": "Jackie Chan",
+          "studentId": "S1013",
+          "section": "J"
+        },
+        "title": "Cybersecurity Essentials",
+        "description": "Key concepts and practices for staying secure online.",
+        "images": ["cybersecurity.jpg"],
+        "uploadTime": "2024-08-10T16:00:00Z",
+        "reactions": {
+          "total": 28,
+          "users": [
+            { "name": "Ivy Lee", "studentId": "S1012" },
+            { "name": "Grace Hopper", "studentId": "S1010" }
+          ]
+        },
+        "comments": {
+          "total": 5,
+          "list": [
+            {
+              "commenter": { "name": "Ivy Lee", "studentId": "S1012" },
+              "comment": "Cybersecurity is critical in today's world.",
+              "time": "2024-08-10T16:30:00Z"
+            },
+            {
+              "commenter": { "name": "Grace Hopper", "studentId": "S1010" },
+              "comment": "Thanks for the tips, Jackie!",
+              "time": "2024-08-10T16:45:00Z"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
